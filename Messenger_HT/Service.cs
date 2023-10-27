@@ -87,6 +87,10 @@ namespace Messenger_HT
                     while (reader.Read())
                     {
                         Console.WriteLine(reader["user_name"] + "\t" + reader["message"] + "\t" + reader["time"]);
+                        //Console.CursorLeft = Console.BufferWidth = 4;
+                        //Console.CursorLeft = Console.BufferWidth - 4;
+                        //Console.Write("[ok]");
+                        //Console.WriteLine(reader["time"]);
                     }
                 }
             }

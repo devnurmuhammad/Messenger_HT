@@ -1,6 +1,8 @@
 ﻿using Messenger_HT;
 using Sharprompt;
 
+//Console.CursorLeft = Console.BufferWidth - 4;
+//Console.Write("[ok]");
 //Console.WriteLine("\t\tTelegram BETA");
 //Console.WriteLine(DateTime.UtcNow.ToString());
 
@@ -19,7 +21,7 @@ if (choice == "Ro'yhatdan o'tish")
 
 if (choice == "Kirish")
 {
-    
+
     Console.Clear();
     Console.Write("Username kiriting: ");
     username = Console.ReadLine();
